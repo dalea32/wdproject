@@ -1,0 +1,102 @@
+nav{
+    background-color: grey;
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+nav ul li {
+    list-style-type: none;
+    background-color: #b2b2b2;
+    display: inline;
+    padding: 15px;   
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li:hover {background-color: #cb92f1;}
+
+nav ul {
+    text-align: center;
+    font-size: 1.2em;
+}
+#active{
+    background-color: darkseagreen;
+}
+.logo{
+    float: left; height: 60px; width: 60px;
+}
+header{
+    background-image: url(../images/header_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    color: black;
+    border: 1px solid blue;
+}
+#BigPic{
+    width: 100%;
+}
+.showimages{
+    float: left;
+    width: 30%;
+    border: 2px solid white;
+    margin: 0 10px 0 10px;
+}
+
+
+footer ul li {  
+    list-style-type: none;
+    color: white;
+    display: inline;
+    padding: 5px;
+}
+footer ul li a{
+    color: white;
+    text-decoration: none;
+    display: inline;
+}
+footer{
+    clear: both;
+    border: 1px solid orange;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+}
+aside{
+    border: 1px solid red;
+    float: right;
+    width: 18%;
+}
+#Maincontent{
+    float: left;
+    width: 80%;
+    border: 1px solid gray;
+}
+aside ul li{
+    list-style-type: none;
+}
+aside ul li a{
+    color: #009dff;
+    text-decoration: none;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+}
+p{
+    text-align: justify;
+    padding: 12px;
+}
+main a{
+    color: #fc8787;
+    text-decoration: none;
+}
+#mainContent{
+    font: black;
+}
