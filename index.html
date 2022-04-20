@@ -1,58 +1,137 @@
 <!DOCTYPE html>
 <!-- This is comments
  Author: Dale Anderson 
- Date Created: Mar 2022 
+ Date Created: Mar 2022
  Purpose : College Project Tourist Attractions in Ireland
- Modifications : 
+ Modifications :  
  -->
 <html lang="en">
 
 <head>
-
+   
     <title>Tourist Attractions in Ireland</title>
     <meta charset="utf-8" />
 
     <meta name="description" content="Tourist Attractions in Ireland">
-    <meta name="keywords" content="Tourist, Attractions, Ireland">
+    <meta name="keywords" content="Ireland, Tourist, Holiday">
 
     <link rel="stylesheet" type="text/css" href="style/style.css"/>
     <link rel="icon" href="images/favicon-shamrock.png" type="images/gif" sizes="16x16">
+</head>
+
 <body>
+<a id="top"></a>
 
     <header>
-        <img class="logo" src="images/image-websitelogo.jpg"logo">
-        <h1>Tourist Attractions in Ireland</h1>
-        
+        <img id="my_logo" src="images/my_logo.png" alt="Ireland logo" width="180" height="180">
+        <h1>Ireland Attractions - A Website For Tourists</h1>
+        <nav>
+            <ul>
+                <li id= active class= selected> <a href="index.html">Home</a></li>
+                <li> <a href="connaughtpage.html">Connaught</a></li> 
+                <li> <a href="ulsterpage.html">Ulster</a></li>
+                <li> <a href="leinsterpage.html">Leinster</a></li>
+                <li> <a href="munsterpage.html">Munster</a></li>
+                <li> <a href="contactpage.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <a href="#bottom">Go to Bottom</a>
     </header>
+       
+        <main>
+            <article>
+                <section>
 
-    <nav>
-        <ul>
-            <li id="active"> <a href="home.html">Home</a></li>
-            <li> <a href="connaughtpage.html">Connaught</a></li> 
-            <li> <a href="ulsterpage.html">Ulster</a></li>
-            <li> <a href="leinsterpage.html">Leinster</a></li>
-            <li> <a href="munsterpage.html">Munster</a></li>
-        </ul>
-    </nav>
-    <main id="Maincontent">
+                    <aside>
+                        <section id= HomePage>
+                    
+                        <h2>About This Website</h2>
+                        <p>
+                        This is a college project. In this website, I am going to
+                        display a tourist attraction in each of the four provinces
+                        of Ireland. I will be examining tourist sites at Achill Island,
+                        the Giants Causeway, Kilkenny castle and the Cliffs of Moher. This
+                        website will be used mainly for tourists who are looking for new
+                        and interesting places to visit throughout Ireland and hopefully
+                        this website will be of some use to them            
+                        </p>
+                        </section>
+                    </aside>
+                        <style>
+                            table{
+                                margin-bottom: 20px;
+                                margin-left: 500px;
+                                margin-right: 500px;
+                                float: inline-end;
+                                border:1px solid green;
+                                border-collapse:collapse;
+                                padding:10px;
+                            }
+                            table th{
+                                border:1px solid #b3adad;
+                                padding:10px;
+                                background: #f0f0f0;
+                                color: green;
+                            }
+                            table td{
+                                border:1px solid #b3adad;
+                                text-align:center;
+                                padding:10px;
+                                background: #ffffff;
+                                color: green;
+                            }
+                        </style>
+                    
+                    
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Contents of Website</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Connaught - Achill Island</td>
+                                </tr>
+                                <tr>
+                                    <td>Ulster - Giants Causeway</td>
+                                </tr>
+                                <tr>
+                                    <td>Leinster - Kilkenny Castle</td>
+                                </tr>
+                                <tr>
+                                    <td>Munster - Cliffs of Moher</td>
+                                </tr>
+                                <tr>
+                                    <td><span style="font-style: normal; font-weight: 400;">Contact Information</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    
+                </section>
+            </article>
 
+                
+            <iframe width="1250" height="315" src="https://www.youtube.com/embed/PrltbUtix4g?start=71" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </main>
+        
 
-        <section id="HomePage">
-            <h2>About Us</h2>
-            <img src="images/image-homepage.jpg" id="HomePageImage"/>
-            <p>
-            
-            </p>
+        <a href="#top">Go to Top</a>
+        <a id="bottom"></a>
 
+                      
     <footer>
-        <ul>
-            <li id="active"> <a href="home.html">Home</a></li>
-            <li> <a href="connaughtpage.html">Connaught</a></li> 
-            <li> <a href="ulsterpage.html">Ulster</a></li>
-            <li> <a href="leinsterpage.html">Leinster</a></li>
-            <li> <a href="munsterpage.html">Munster</a></li>
-        </ul>
-        <small>&copy; 2022 Tourist Attractions in Ireland</small> 
+            <img id= my_logo src="images/my_logo.png" alt="Ireland logo" width="180" height="180"> 
+            <ul>
+                <li> <a href="index.html"  style="color: red">Home</a></li>
+                <li> <a href="connaughtpage.html">Connaught</a></li> 
+                <li> <a href="ulsterpage.html">Ulster</a></li>
+                <li> <a href="leinsterpage.html">Leinster</a></li>
+                <li> <a href="munsterpage.html">Munster</a></li>
+                <li> <a href="contactpage.html">Contact Us</a></li>
+            </ul>
+        <small id="foot">&copy; 2022 Tourist Attractions in Ireland</small> 
     </footer>
 
 </body>
+</html>

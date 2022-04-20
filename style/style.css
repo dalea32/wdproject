@@ -1,102 +1,170 @@
+/***Home Page***/
+
+body{
+    background-color: white;
+    font-family: sans-serif;
+    color: green;   
+}
+#foot{
+    color: yellow;
+    font-style: italic;
+    font-size: medium;    
+}
+.HomePage{
+    text-align: justify
+       
+}
+#my_logo{
+    border-bottom-left-radius: 70px;
+    float: right;
+    width: 180px;
+    height: 180px;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+}
 nav{
-    background-color: grey;
-    padding: 5px;
-    border: 1px solid green;
-    border-radius: 5px;
-}
-nav ul li {
-    list-style-type: none;
-    background-color: #b2b2b2;
-    display: inline;
-    padding: 15px;   
-}
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-nav ul li:hover {background-color: #cb92f1;}
-
-nav ul {
-    text-align: center;
-    font-size: 1.2em;
-}
-#active{
-    background-color: darkseagreen;
-}
-.logo{
-    float: left; height: 60px; width: 60px;
-}
-header{
-    background-image: url(../images/header_image.jpg);
+    background-image: url(../images/image-homepage.jpg);
     background-repeat: no-repeat;
+    background-position: center -325px;
     background-size: cover;
-    height: 200px;
-    color: black;
-    border: 1px solid blue;
+    height: 250px;
+    border-radius: 20px;
 }
-#BigPic{
-    width: 100%;
+nav ul{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
 }
-.showimages{
+nav ul li{
     float: left;
-    width: 30%;
-    border: 2px solid white;
-    margin: 0 10px 0 10px;
+    padding: 15px;
+    margin: 40px 3px;
+    background-color: #bfb9a0;
 }
-
-
-footer ul li {  
-    list-style-type: none;
+nav ul a:hover{
     color: white;
-    display: inline;
-    padding: 5px;
 }
-footer ul li a{
-    color: white;
-    text-decoration: none;
-    display: inline;
+nav ul li:hover{
+    background-color: #cfeb55;
+}
+.selected{
+    background-color: #f3b104;
 }
 footer{
     clear: both;
-    border: 1px solid orange;
-    padding: 0;
-    margin: 0;
-    position: relative;
-    bottom: 0px;
-    width: 100%;
-    background-color: grey;
-    text-align: center;
+    background-color: #8c8674;
 }
-aside{
-    border: 1px solid red;
-    float: right;
-    width: 18%;
+
+footer ul li{
+    padding: 15px;
+    margin: 40px 3px;
+    background-color: #bfb9a0;
 }
-#Maincontent{
-    float: left;
-    width: 80%;
-    border: 1px solid gray;
+
+/***Connaught Page ***/
+
+#firstParagraph{   
+    column-count: 4;
+    column-rule: 1px solid black;
+    column-gap: normal;
 }
-aside ul li{
-    list-style-type: none;
+#secondParagraph{   
+    column-count: 4;
+    column-rule: 1px solid  black;
+    column-gap: normal;
 }
-aside ul li a{
-    color: #009dff;
-    text-decoration: none;
+#thirdParagraph{   
+    column-count: 4;
+    column-rule: 1px solid  black;
+    column-gap: normal;
 }
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: black;
-    color: white;
+#Achill_Island{   
+    width: 40%;
+    float: inline-end;
+    border-radius: 10px;
+    border: 2px solid rgb(216, 135, 14);
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
-p{
-    text-align: justify;
-    padding: 12px;
+
+/***Ulster Page ***/
+
+#forthParagraph{   
+    column-count: 4;
+    column-rule: 1px solid black;
+    column-gap: normal;
 }
-main a{
-    color: #fc8787;
-    text-decoration: none;
+#fifthParagraph{  
+    column-count: 4;
+    column-rule: 1px solid black;
+    column-gap: normal;
 }
-#mainContent{
-    font: black;
+#sixthParagraph{   
+    column-count: 4;
+    column-rule: 1px solid  black;
+    column-gap: normal;
+}
+#Giants_Causeway{   
+    width: 40%;
+    float: inline-end;
+    border-radius: 10px;
+    border: 2px solid rgb(216, 135, 14);
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+/***Leinster Page ***/
+
+#seventhParagraph{   
+    column-count: 4;
+    column-rule: 1px solid black;
+    column-gap: normal;
+}
+#eigthParagraph{    
+    column-count: 4;
+    column-rule: 1px solid black;
+    column-gap: normal;
+}
+#ninthParagraph{   
+    column-count: 4;
+    column-rule: 1px solid  black;
+    column-gap: normal;
+}
+#Kilkenny_Castle{   
+    width: 40%;
+    float: inline-end;
+    border-radius: 10px;
+    border: 2px solid rgb(216, 135, 14);
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+/***Munster Page ***/
+
+#tenthParagraph{   
+    column-count: 4;
+    column-rule: 1px solid black;
+    column-gap: normal;
+}
+#eleventhParagraph{    
+    column-count: 4;
+    column-rule: 1px solid black;
+    column-gap: normal;
+}
+#twelfthParagraph{    
+    column-count: 4;
+    column-rule: 1px solid  black;
+    column-gap: normal;
+}
+#CliffsOfMoher{   
+    width: 40%;
+    float: inline-end;
+    border-radius: 10px;
+    border: 2px solid rgb(216, 135, 14);
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
